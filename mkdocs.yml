@@ -1,0 +1,66 @@
+site_name: omarciodanilo
+site_url: https://omarciodanilo.github.io/
+site_description: Notas de estudos sobre Cloud e DevOps
+site_author: Márcio Danilo
+copyright: Copyright &copy; 2026 Márcio Danilo
+
+theme:
+  name: material
+  language: pt-BR
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - toc.follow
+    - search.suggest
+    - search.highlight
+
+nav:
+  - Home: index.md
+  - Conteúdo:
+      - blog/index.md
+
+plugins:
+  - search
+  - blog:
+      blog_dir: blog
+      blog_toc: true
+      post_date_format: full
+      post_url_format: "{slug}"
+      post_readtime: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/omarciodanilo
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/omarciodanilo
