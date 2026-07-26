@@ -33,6 +33,7 @@ theme:
         name: Switch to system preference
 
   features:
+    - navigation.indexes
     - navigation.instant
     - navigation.instant.prefetch
     - navigation.instant.progress
@@ -46,8 +47,12 @@ theme:
 
 nav:
   - Home: index.md
-  - Conteúdo:
-      - blog/index.md
+  - Projetos:
+    - projetos/index.md
+    - CPF Hub:
+        - projetos/cpf-hub/index.md
+  - Blog:
+    - blog/index.md
 
 plugins:
   - search
