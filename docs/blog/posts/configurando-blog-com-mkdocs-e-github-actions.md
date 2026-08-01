@@ -8,7 +8,16 @@ categories:
 ---
 # Configurando blog com MkDocs e GitHub Actions
 
-Aqui você descreve o seu laboratório.
+- Introdução
+  - O que é o MkDocs e o tema Material?
+  - Por que usar o MkDocs?
+- Ambiente
+  - Criação do venv local
+  - Instalação de dependências
+  - Leitura de documentação (MkDocs e Material; colocar links oficiais)
+  - Comandos para deploy local do site (não usei) e para deploy no GitHub Actions
+  - Ajustes no arquivo ci.yml
+
 <!-- more -->
 
 ## Introdução
