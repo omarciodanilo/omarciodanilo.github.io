@@ -10,7 +10,7 @@ SysAdmin estudando Cloud e DevOps.
 ---
 
 ## Links úteis
-- **[Projetos](projects/index.md)**: lista de projects pessoais.
-- **[Blog](blog/index.md)**: artigos técnicos relacionados ao meu dia-a-dia.
-- **[GitHub](https://github.com/omarciodanilo)**
-- **[Linkedin](https://linkedin.com/in/omarciodanilo)**
+- **[Projetos](projects/index.md)**: lista de projetos pessoais.
+- **[Blog](blog/index.md)**: conteúdo técnico relacionado a meus estudos e projetos.
+- **[GitHub](https://github.com/omarciodanilo)**: todos os meus repositórios.
+- **[Linkedin](https://linkedin.com/in/omarciodanilo)**: meu histórico profissional.
