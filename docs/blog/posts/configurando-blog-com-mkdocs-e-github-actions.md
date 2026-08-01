@@ -1,14 +1,15 @@
 ---
 draft: true
-date: 2026-07-16
-slug: template
+date: 2026-08-01
+slug: configurando-blog-com-mkdocs-e-github-actions
 categories:
-  - Cloud
-  - AWS
+  - MkDocs
+  - GitHub Actions
 ---
-# Lab 01: Configuração de Instância EC2
+# Configurando blog com MkDocs e GitHub Actions
 
 Aqui você descreve o seu laboratório.
+<!-- more -->
 
 ## Introdução
 Explique o objetivo do laboratório.

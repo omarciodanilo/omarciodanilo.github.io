@@ -48,9 +48,9 @@ theme:
 nav:
   - Home: index.md
   - Projetos:
-    - projetos/index.md
+    - projects/index.md
     - CPF Hub:
-        - projetos/cpf-hub/index.md
+        - projects/cpf-hub/index.md
   - Blog:
     - blog/index.md
 
